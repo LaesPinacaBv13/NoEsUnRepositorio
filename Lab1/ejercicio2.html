@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desarrollo de aplicaciones</title>
+        <style>
+            .GFG{
+                color: chartreuse;
+            }
+            .error{
+                color: red;
+                font-size: 0.9em;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <form id="formaRegistro" novalidate>
+            <h2>Registro</h2>
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required minlength="3" maxlength="30" pattern="[A-Za-z\s]+" />
+                <div class="error" id="nameError">Por favor, introduce un nombre valido (solo letras y espacios, 3-50 caracteres).</div>
+            </li>
+            <li class="button">
+                <button type="submit">Enviar</button>
+            </li>
+        </form>
+    </body>
+</html>
