@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #4B0082;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #008080;
+}
+
+.stock {
+    color: #008000;
+}
+
+.cart-button {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.cart-button:hover {
+    background-color: #008CBA;
+}
+
+@media (max-width: 900px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #4B0082;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+
+    .product {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

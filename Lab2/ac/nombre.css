@@ -1,0 +1,31 @@
+/* nombre.css */
+
+#encabezado {
+    background-color: #f42323;
+    color: rgb(8, 5, 5);
+    text-align: center;
+    padding: 10px 0;
+}
+
+#seccion1, #seccion2, #seccion3 {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border: 1px solid #6f2a2a;
+}
+
+#seccion1 h2, #seccion2 h2, #seccion3 h2 {
+    color: #333;
+}
+
+#seccion1 p, #seccion2 p, #seccion3 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#piepagina {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

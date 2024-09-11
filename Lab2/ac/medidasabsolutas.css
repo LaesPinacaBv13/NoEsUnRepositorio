@@ -1,0 +1,31 @@
+p{
+    font-size: 16px;
+    padding: 10px;
+    border-width: 1px;
+}
+div {
+    width: 200px;
+    height: 100px;
+}
+h1 {
+    font-size: larger;
+    color: blueviolet;
+}
+section {
+    margin: 1cm;
+}
+h2 {
+    font-size: 18pt;
+}
+ul {
+    list-style-type: disc;
+}
+[href="https://www.youtube.com/"] {
+    color: rgb(121, 244, 150);
+}
+a:hover {
+    text-decoration: none;
+}
+input:focus {
+    background-color: blanchedalmond;
+}

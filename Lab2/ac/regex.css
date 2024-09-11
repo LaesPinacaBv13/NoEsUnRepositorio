@@ -1,0 +1,22 @@
+* {
+    border: 1px solid #f42626;
+}
+
+[class*="title"] {
+    background-color: rgb(118, 205, 234);
+    color: darkblue;
+}
+
+a[href^="https://"] {
+    color: green;
+}
+
+img[src$=".jpg"] {
+    border: 2px solid red;
+}
+[class|="item"] {
+    background-color: lightgray;
+}
+div[data-custom ^= "value"] {
+    font-weight: bold;
+}

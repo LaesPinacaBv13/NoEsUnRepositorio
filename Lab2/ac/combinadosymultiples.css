@@ -1,0 +1,41 @@
+
+a[href^="https"] {
+    color: green;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h2 + p {
+    font-style: italic;
+}
+
+input[type="text"].error {
+    border: 1px solid red;
+}
+
+div.container > .item {
+    background-color: lightblue;
+}
+section .special {
+    color: purple;
+}
+input[type="checkbox"]:checked {
+    background-color: yellow;
+}
+a.external.no-underline {
+    text-decoration: none;
+}
+button.primary::before {
+    content: "🚀";
+}
+input[type="email"]::placeholder {
+    color: #999;
+}
+p.highlighted.error {
+    color: red;
+}
+span.category[type="promo"].important {
+    font-weight: bold;
+}

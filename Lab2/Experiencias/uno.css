@@ -1,0 +1,20 @@
+h1{
+    color: rgb(36, 12, 107);
+    font-size: larger;
+}
+
+h2{
+    color: rgb(210, 237, 103);
+    font-family: 'Calibri', Times, serif;
+}
+p{
+    color: #f43535;
+    font-weight: 100;
+    background-color: rgb(12, 12, 10);
+}
+ [href]{
+    color:aqua;
+ }
+ [href="https://www.ucsm.edu.pe/"]{
+    color:greenyellow;
+ }

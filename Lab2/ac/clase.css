@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #6ecff5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #56ffb3;
+    border: 1px solid #382f2f;
+}
+
+.section-title {
+    color: #333;
+}
+
+.section-content {
+    font-size: 16px;
+    line-height: 1.6;
+}

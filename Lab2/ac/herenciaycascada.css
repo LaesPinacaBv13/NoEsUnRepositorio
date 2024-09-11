@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #957421;
+}
+h1 {
+    font-weight: bold;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(20, 116, 176);
+}
+ul {
+    list-style-type: square;
+}
+.title {
+    font-size: 24px;
+    color: #FF5733;
+}
+#special {
+    font-size: 28px;
+    font-weight: bold;
+}
+p {
+    font-size: 18px;
+}
+.container p {
+    color: #1a0d0d;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(41, 203, 41);
+}
